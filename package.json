@@ -18,6 +18,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^23.1.0",
     "@ckeditor/ckeditor5-react": "^3.0.0",
+    "sharp": "^0.26.2",
     "slugify": "^1.4.6",
     "strapi": "3.2.5",
     "strapi-admin": "3.2.5",
