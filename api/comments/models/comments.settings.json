@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "Comments",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "pseudo": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "post": {
+      "via": "comments",
+      "model": "posts"
+    }
+  }
+}
